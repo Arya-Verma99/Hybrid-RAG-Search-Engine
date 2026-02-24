@@ -1,5 +1,4 @@
 <h1 align="center"> 🚀 Multi-Document Hybrid RAG Search Engine </h1>
-<align="center" (With Real-Time Web Search Integration)>
 
 ## 📌 Overview
 The Multi-Document Hybrid RAG Search Engine is an AI-powered search assistant that combines:
