@@ -1,5 +1,5 @@
 <h1 align="center"> 🚀 Multi-Document Hybrid RAG Search Engine </h1>
-## (With Real-Time Web Search Integration)
+<align="center" (With Real-Time Web Search Integration)>
 
 ## 📌 Overview
 The Multi-Document Hybrid RAG Search Engine is an AI-powered search assistant that combines:
@@ -70,37 +70,8 @@ Combines retrieved context with LLM to generate grounded, citation-aware respons
 * Frontend : Streamlit
 * Embeddings : Sentence Transformers
 
-## 📂 Project Structure
-multi-document-hybrid-rag/
-│
-├── app.py
-├── config.py
-├── requirements.txt
-├── .env
-│
-├── rag/
-│   ├── document_loader.py
-│   ├── text_splitter.py
-│   ├── embeddings.py
-│   ├── vector_store.py
-│   ├── retriever.py
-│   ├── query_router.py
-│   ├── context_builder.py
-│   ├── rag_chain.py
-│   ├── summary.py
-│
-├── web_search/
-│   └── tavily_search.py
-│
-├── vectorstore/
-│   └── faiss_index/
-│
-└── utils/
-    └── helper.py
-
 ## ⚙️ Installation & Setup
-1. Clone Repository : git clone https://github.com/your-username/multi-document-hybrid-rag.git
-cd multi-document-hybrid-rag
+1. Clone Repository : Obtain the project source code from GitHub. 
 
 2. Create Virtual Environment :
 python -m venv venv
@@ -109,6 +80,7 @@ venv\Scripts\activate
 3. Install Dependencies : pip install -r requirements.txt
 
 4. Configure API Keys : GROQ_API_KEY=your_groq_api_key
+   
 TAVILY_API_KEY=your_tavily_api_key
 
 Add .env to .gitignore
