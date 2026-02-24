@@ -1,7 +1,7 @@
-<h1 align="center"> 🚀 GD02: Multi-Document Hybrid RAG Search Engine </h1>
+<h1 align="center"> 🚀 Multi-Document Hybrid RAG Search Engine </h1>
 ## (With Real-Time Web Search Integration)
 
-# 📌 Overview
+## 📌 Overview
 The Multi-Document Hybrid RAG Search Engine is an AI-powered search assistant that combines:
 * Multi-document semantic search
 * Real-time web search
@@ -12,7 +12,7 @@ This system enables users to retrieve and synthesize information from internal k
 
 The project mirrors real-world enterprise AI copilots that blend private knowledge bases with dynamic web intelligence.
 
-# 🎯 Objective
+## 🎯 Objective
 The objective of this project is to design and implement a Hybrid RAG system that:
 * Builds a searchable knowledge base from multiple documents
 * Uses FAISS for semantic vector search
@@ -21,31 +21,39 @@ The objective of this project is to design and implement a Hybrid RAG system tha
 * Generates citation-aware, grounded answers
 * Provides a transparent and interactive chatbot interface
 
-# 🏗️ Architecture Overview
-### Frontend (app.py) : Streamlit web application that allows:
+## 🏗️ Architecture Overview
+#### Frontend (app.py) :
+Streamlit web application that allows:
 * Document upload
 * Chat-based querying
 * Web search toggle
 * Source-aware response display
 
-### Document Loader : Loads PDFs, text files, and Wikipedia pages using LangChain loaders with metadata consistency.
+#### Document Loader : 
+Loads PDFs, text files, and Wikipedia pages using LangChain loaders with metadata consistency.
 
-### Text Splitter : Splits documents into overlapping chunks for improved retrieval accuracy.
+#### Text Splitter : 
+Splits documents into overlapping chunks for improved retrieval accuracy.
 
-### Embeddings Module : Generates vector embeddings using Sentence Transformers.
+#### Embeddings Module : 
+Generates vector embeddings using Sentence Transformers.
 
-### Vector Store (FAISS) : Stores embeddings locally and enables fast semantic similarity search.
+#### Vector Store (FAISS) : 
+Stores embeddings locally and enables fast semantic similarity search.
 
-### Query Router : Classifies user queries into:
+#### Query Router : 
+Classifies user queries into:
 * Document-based
 * Web-based
 * Hybrid
 
-### Web Search Integration : Uses Tavily Search API to fetch real-time information including titles, snippets, and URLs.
+#### Web Search Integration : 
+Uses Tavily Search API to fetch real-time information including titles, snippets, and URLs.
 
-### RAG Chain : Combines retrieved context with LLM to generate grounded, citation-aware responses.
+#### RAG Chain : 
+Combines retrieved context with LLM to generate grounded, citation-aware responses.
 
-# 🧠 Core Features
+## 🧠 Core Features
 * Multi-document semantic retrieval using FAISS
 * Hybrid search (Documents + Real-Time Web)
 * Intelligent query routing
@@ -54,7 +62,7 @@ The objective of this project is to design and implement a Hybrid RAG system tha
 * Interactive Streamlit chatbot UI
 * Persistent vector indexing for performance optimization
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 * Programming Language : Python
 * LLM Orchestration : LangChain
 * Vector Database : FAISS
@@ -62,7 +70,7 @@ The objective of this project is to design and implement a Hybrid RAG system tha
 * Frontend : Streamlit
 * Embeddings : Sentence Transformers
 
-# 📂 Project Structure
+## 📂 Project Structure
 multi-document-hybrid-rag/
 │
 ├── app.py
@@ -90,7 +98,7 @@ multi-document-hybrid-rag/
 └── utils/
     └── helper.py
 
-# ⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 1. Clone Repository : git clone https://github.com/your-username/multi-document-hybrid-rag.git
 cd multi-document-hybrid-rag
 
@@ -107,7 +115,7 @@ Add .env to .gitignore
 
 5. Run the Application : streamlit run app.py
 
-# ☁️ Deployment (Streamlit Cloud)
+## ☁️ Deployment (Streamlit Cloud)
 * Push project to GitHub
 * Go to https://share.streamlit.io
 * Connect GitHub repository
@@ -116,7 +124,7 @@ Add .env to .gitignore
 * Click Deploy
 The app will be live at : https://your-app-name.streamlit.app
 
-# 📊 Results
+## 📊 Results
 * Answers questions from multiple documents simultaneously
 * Combines document knowledge with real-time web data
 * Provides grounded, citation-aware responses
@@ -124,14 +132,14 @@ The app will be live at : https://your-app-name.streamlit.app
 * Optimized retrieval using FAISS indexing
 * Interactive and transparent chatbot interface
 
-# 🔮 Future Enhancements
+## 🔮 Future Enhancements
 * Advanced LLM-based query classification
 * Support for additional file formats (DOCX, CSV, DB connections)
 * Role-based authentication system
 * Monitoring and analytics dashboard
 * Multi-Language Support
 
-# 🎓 Key Learning Outcomes
+## 🎓 Key Learning Outcomes
 * Multi-document RAG system design
 * Hybrid retrieval architecture
 * Real-time web integration
@@ -139,10 +147,10 @@ The app will be live at : https://your-app-name.streamlit.app
 * LangChain + Streamlit application development
 * Explainable AI system design
 
-# 📌 Conclusion 
+## 📌 Conclusion 
 This project demonstrates how to build a production-style Hybrid RAG system that integrates private document knowledge with live web search. It showcases expertise in semantic retrieval, LLM orchestration, explainability, and full-stack AI application development.
 
-# 👨‍💻 Author 
+#### 👨‍💻 Author 
 Pooja Verma
 AI Engineer | Data Science Enthusiast
 Focused on building practical, scalable AI systems.
